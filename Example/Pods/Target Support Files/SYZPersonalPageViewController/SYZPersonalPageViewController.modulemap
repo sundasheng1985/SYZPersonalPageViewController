@@ -1,0 +1,6 @@
+framework module SYZPersonalPageViewController {
+  umbrella header "SYZPersonalPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

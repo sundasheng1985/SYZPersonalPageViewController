@@ -1,0 +1,42 @@
+PODS:
+  - Masonry (1.1.0)
+  - ReactiveObjC (3.1.0)
+  - SYZNavigationControllerKit (0.1.0)
+  - SYZPersonalPageViewController (0.1.0):
+    - SYZNavigationControllerKit
+    - WMPageController
+    - WRNavigationBar
+  - WMPageController (2.5.2)
+  - WRNavigationBar (1.2.0)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - Masonry
+  - ReactiveObjC
+  - SYZPersonalPageViewController (from `../`)
+  - YYWebImage
+
+EXTERNAL SOURCES:
+  SYZPersonalPageViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
+  SYZNavigationControllerKit: 48725ea37421dd21314116071242a6f3416357e0
+  SYZPersonalPageViewController: 3c7db52bdacdc97b9c5339f5a7831819d3d305fa
+  WMPageController: 0c7624d2b48e4f1ab92371688cf6744ed701575d
+  WRNavigationBar: dc952230effbb646785f962587caaac06c60f229
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 1b2c3d900879402835781ccdfcb9193c938d4859
+
+COCOAPODS: 1.4.0
